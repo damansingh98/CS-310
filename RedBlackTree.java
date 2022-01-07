@@ -2,7 +2,6 @@
 Name: Damandeep Singh
 course: CS 310
 Account - cssc3255
-Red ID- 821195382
  */
 
 package data_structures;
@@ -78,16 +77,10 @@ public class RedBlackTree implements RedBlackTreeInterface {
 
                         } else {
                             currNode = currNode.getRightChild();
-
-
                         }
-
                     }
-
                 }
-
             }
-
         }
 
         @Override
@@ -163,8 +156,6 @@ public class RedBlackTree implements RedBlackTreeInterface {
 
     }
 
-
-
 //private search method which returns the specified node
     private NodeInterface search(int value, NodeInterface node) {
         if (node == null)
@@ -181,7 +172,6 @@ public class RedBlackTree implements RedBlackTreeInterface {
     }
 
 
-
 //contains methods
     @Override
     public boolean contains(int value) {
@@ -192,7 +182,6 @@ public class RedBlackTree implements RedBlackTreeInterface {
         return flag;
     }
 
-
     private boolean contains(int value, NodeInterface node){
         if(node == null)
             return false;
@@ -202,7 +191,6 @@ public class RedBlackTree implements RedBlackTreeInterface {
             return contains(value, node.getLeftChild());
         return contains(value,node.getRightChild());
     }
-
 
 //retrieves the value
     @Override
@@ -222,7 +210,5 @@ public class RedBlackTree implements RedBlackTreeInterface {
         }
         return null;
     }
-
-
 
 }
