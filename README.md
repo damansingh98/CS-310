@@ -1,2 +1,1 @@
-# CS-310
-#Data Structures And Algorithms
+# Data Structures And Algorithms
